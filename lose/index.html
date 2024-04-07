@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-align: center;
+                background-color:rgb(57, 87, 255);
+                overflow: hidden;
+            }
+            h1 {
+                font-weight: 900;
+                font-family: Helvetica;
+                text-align: center;
+            }
+            .img1 {
+            /*transform: scaleX(-1);*/
+            }
+            .start{
+                width: 20%;
+                height: 40px;
+                border-radius: 5px;
+                background-color: rgb(156, 156, 156);
+                filter: drop-shadow(0px 10px 0px #2c2c2c);
+                transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+            .start:hover{
+                transform: translateY(10px);
+                filter: drop-shadow(0px 0px 0px #2c2c2c);
+            }
+        </style>
+    </head>
+    <body>
+        <audio controls autoplay>
+            <source src="https://www.myinstants.com/media/sounds/sadtrombone.swf.mp3" type="audio/mpeg">
+          </audio>
+          <h3 style="margin-bottom:0px;">Click the play button above.<br></h3>
+        <h1>You have destroyed the Environment!<br>This turtle called Dwayne "The Smith" Johnson is now sad because of you</h1>
+        <button class="start" onclick="window.location.href='../game'">Play Again</button>
+        <p style="font-weight: 900;font-size:20px;font-family:Helvetica;">Plastic and trash is a huge problem in the ocean. Because of all the plastic in the ocean over one million sea turtles are killed every year. This is because the turtles mainly eat jellyfish but they mistake the plastic for jellyfish and eat it. Seabirds are also affected by plastic. They also eat the plastic and because it doesn’t have nutrients then they starve to death. Many other animals in the ocean have this same problem such as fish and whales.</p>
+        <marquee behavior="" direction="right" scrollamount="30"><img src="johnsmith.png"></marquee>
+    </body>
+</html>
